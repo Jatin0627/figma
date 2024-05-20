@@ -1,0 +1,418 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(350.43deg, #19009E 12.24%, #420494 65.31%, #014e7a 89.76%);
+    padding-bottom: 70px;
+}
+
+.heading{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.container{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+}
+
+.review{
+    background: #0000001F;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.referal{
+    background: #0000001F;
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.reviewtext{
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+    padding: 25px 0 35px 30px ;
+
+}
+
+.reviewcont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: #0000001F;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    height: 370px;
+    padding: 10px 25px 10px 10px;
+    margin-bottom: 30px;
+    
+}
+
+.reviewleft{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 85%;
+    padding-left: 30px;
+    /* padding-top: 10px; */
+    padding-bottom: 25px;
+}
+
+.reviewtopcont{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.reviewtopcont img{
+    height: 94px;
+    width: 94px;
+}
+
+.reviewname{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.reviewstate{
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 0.7);
+    padding-top: 5px;
+}
+
+.badgecont{
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.badgecont img{
+    height: 64px;
+    width: 64px;
+}
+
+.reviewright{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 15px;
+    height: 80%;
+    
+}
+
+.rightcont{
+    display: flex;
+    justify-content:flex-start;
+  
+    align-items: center;
+    gap: 10px;
+    background-color: #0000001F;
+    height: 28px;
+    width: 272px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rightcont img{
+    height: 29px;
+    width: 29px;
+
+}
+
+.rightcont h3{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.rightcont div{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.reviewparagraph{
+color: rgba(255, 255, 255, 0.7);
+font-size: 19px;
+padding-right: 5px;
+line-height: 27px;
+}
+.paragraphsubheading{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    padding-right: 5px;
+    line-height: 27px;
+}
+
+
+/* referal */
+
+.referalgrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.referalcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 35px;
+    padding-bottom: 20px;
+   
+    height: 325px;
+    background-color:#0000001F;
+    margin: 20px;
+    border-radius: 12px;
+
+}
+
+.referalcontent1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.referalcontent1 img{
+    height: 94px;
+    width: 94px;
+}
+
+.referalname{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.referalstate{
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 0.7);
+    padding-top: 5px;
+}
+.referalcontent2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+
+.referalsubcon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    gap: 10px;
+    background-color: #0000001F;
+    padding-top: 7px;
+    padding-left: 4px;
+    padding-bottom: 7px;
+    padding-right: 80px;
+
+}
+
+.referalsubcon img{
+    height: 50px;
+    width: 50px;
+}
+
+.referalinteger{
+    font-size: 24px;
+    color: white;
+    font-weight: 600;
+
+
+}
+
+.referalsubcontext{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+
+/* mobile view */
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .parent {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .heading {
+        font-size: 35px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap: 30px;
+    }
+
+    .review, .referal {
+        width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .reviewtext {
+        font-size: 32px;
+        padding: 15px 0 25px 15px;
+    }
+
+    .reviewcont {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .reviewleft {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        padding-left: 10px;
+        gap: 10px;
+    }
+
+    .reviewtopcont {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+        padding-bottom: 0;
+    }
+
+    .reviewtopcont img {
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+
+    .badgecont {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding-top: 10px;
+    }
+
+    .badgecont img {
+        height: 45px;
+        width: 45px;
+        
+
+    }
+
+    .reviewright {
+        gap: 10px;
+        height: auto;
+        padding-top: 10px;
+    }
+
+    .rightcont {
+        height: auto;
+        width: auto;
+        padding: 5px;
+    }
+
+    .rightcont h3 {
+        font-size: 20px;
+    }
+
+    .rightcont div {
+        font-size: 16px;
+    }
+
+    .reviewparagraph, .paragraphsubheading {
+        font-size: 16px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+
+    /* Referal section adjustments */
+    .referalgrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .referalcontent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding: 15px;
+    }
+
+    .referalcontent1 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 15px;
+    }
+
+    .referalcontent1 img {
+        height: 70px;
+        width: 70px;
+        margin-right: 10px;
+    }
+
+    .referalcontent2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .referalsubcon {
+        flex-direction: row;
+        padding-right: 20px;
+        padding-left: 10px;
+    }
+
+    .referalsubcon img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .referalinteger {
+        font-size: 20px;
+    }
+
+    .referalsubcontext {
+        font-size: 16px;
+    }
+}
